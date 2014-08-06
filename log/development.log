@@ -213,3 +213,135 @@ NoMethodError (undefined method `erb' for #<PostsController:0x00000101560390>):
   Rendered /Users/joshjeong/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
   Rendered /Users/joshjeong/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
   Rendered /Users/joshjeong/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-06 10:21:28 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `erb' for #<PostsController:0x000001064ff248>):
+  app/controllers/posts_controller.rb:4:in `index'
+
+
+  Rendered /Users/joshjeong/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/joshjeong/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/joshjeong/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/joshjeong/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-06 10:22:07 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 10:22:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:08 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-06 10:22:46 -0700
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 10:22:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 10:22:46 -0700
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (4.5ms)[0m  CREATE TABLE "comments" ("id" serial primary key, "post_id" integer, "content" text, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.6ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "user_id" integer, "title" character varying(255), "content" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (2.4ms)[0m  CREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "password" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140806053949')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140806053831')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140806053906')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Aut veniam et sunt est dolores."], ["created_at", "2014-08-06 17:29:34.969173"], ["title", "Corporate Factors Director"], ["updated_at", "2014-08-06 17:29:34.969173"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ducimus voluptate consequatur nesciunt sunt nemo."], ["created_at", "2014-08-06 17:29:34.978341"], ["title", "Regional Communications Consultant"], ["updated_at", "2014-08-06 17:29:34.978341"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Officiis qui minus aut saepe eaque nesciunt et."], ["created_at", "2014-08-06 17:29:34.980014"], ["title", "Customer Applications Liason"], ["updated_at", "2014-08-06 17:29:34.980014"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ipsa magni voluptatibus deleniti ut quia illo."], ["created_at", "2014-08-06 17:29:34.981375"], ["title", "Chief Accountability Officer"], ["updated_at", "2014-08-06 17:29:34.981375"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Error aut odit necessitatibus quae blanditiis."], ["created_at", "2014-08-06 17:29:34.982882"], ["title", "Internal Data Producer"], ["updated_at", "2014-08-06 17:29:34.982882"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Eum quibusdam voluptatem molestiae veritatis error."], ["created_at", "2014-08-06 17:29:34.984174"], ["title", "Internal Marketing Orchestrator"], ["updated_at", "2014-08-06 17:29:34.984174"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Corporis et et ut quis ducimus qui officia."], ["created_at", "2014-08-06 17:29:34.985512"], ["title", "Global Communications Designer"], ["updated_at", "2014-08-06 17:29:34.985512"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "In explicabo voluptas voluptatibus."], ["created_at", "2014-08-06 17:29:34.986788"], ["title", "Senior Accountability Developer"], ["updated_at", "2014-08-06 17:29:34.986788"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quo ex quia magni autem eum ea quia in."], ["created_at", "2014-08-06 17:29:34.988056"], ["title", "National Accountability Associate"], ["updated_at", "2014-08-06 17:29:34.988056"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Qui necessitatibus ullam dolorem modi sit."], ["created_at", "2014-08-06 17:29:34.989327"], ["title", "Corporate Mobility Designer"], ["updated_at", "2014-08-06 17:29:34.989327"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Doloribus ut et vel possimus tempora voluptatem."], ["created_at", "2014-08-06 17:29:41.874647"], ["title", "Dynamic Branding Consultant"], ["updated_at", "2014-08-06 17:29:41.874647"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Totam voluptatem dicta eaque dolores consectetur vitae."], ["created_at", "2014-08-06 17:29:41.879539"], ["title", "Corporate Program Specialist"], ["updated_at", "2014-08-06 17:29:41.879539"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Ducimus et sit nemo asperiores tempore veniam incidunt aut."], ["created_at", "2014-08-06 17:29:41.881237"], ["title", "Product Quality Coordinator"], ["updated_at", "2014-08-06 17:29:41.881237"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Doloremque voluptas nisi et odit modi sed quos."], ["created_at", "2014-08-06 17:29:41.882612"], ["title", "Direct Division Producer"], ["updated_at", "2014-08-06 17:29:41.882612"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Sapiente veritatis quos quia est magni."], ["created_at", "2014-08-06 17:29:41.884068"], ["title", "International Web Supervisor"], ["updated_at", "2014-08-06 17:29:41.884068"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quibusdam ea provident suscipit deserunt in pariatur."], ["created_at", "2014-08-06 17:29:41.885405"], ["title", "Investor Usability Strategist"], ["updated_at", "2014-08-06 17:29:41.885405"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Iusto autem eligendi corporis."], ["created_at", "2014-08-06 17:29:41.886699"], ["title", "Future Creative Specialist"], ["updated_at", "2014-08-06 17:29:41.886699"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Nobis eaque est distinctio vero repellendus."], ["created_at", "2014-08-06 17:29:41.887929"], ["title", "Legacy Markets Administrator"], ["updated_at", "2014-08-06 17:29:41.887929"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Et ab et dolorem iste velit."], ["created_at", "2014-08-06 17:29:41.889204"], ["title", "Regional Infrastructure Consultant"], ["updated_at", "2014-08-06 17:29:41.889204"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Libero illum deserunt cum voluptates voluptas."], ["created_at", "2014-08-06 17:29:41.890466"], ["title", "Chief Paradigm Supervisor"], ["updated_at", "2014-08-06 17:29:41.890466"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mPost Load (0.8ms)[0m  SELECT  "posts".* FROM "posts"   ORDER BY "posts"."id" ASC LIMIT 1

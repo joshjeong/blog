@@ -7,3 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
+10.times do |x|
+  Post.create(title: Faker::Name.title, content: Faker::Lorem.sentence)
+end
