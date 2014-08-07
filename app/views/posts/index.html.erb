@@ -1,8 +1,11 @@
-<html>
-<head>
-  <title>This Illest</title>
-</head>
-<body>
+<h1>Josh X San Francisco</h1>
 
-</body>
-</html>
+<ul>
+  <% @posts.each do |post| %>
+    <li>
+      <%= post.title %><br>
+      <%= post.content %>
+      <%= button_to "Delete", { action: "destroy", id: post.id }, method: :delete, data: { confirm: "Are you sure?" } %><br>
+    </li>
+  <% end %>
+</ul>
