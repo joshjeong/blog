@@ -14,8 +14,19 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
-gem 'faker'
-#game to create fake information for seeds
+group :development, :test do
+  gem 'capybara'
+  #testing framework
+
+  gem 'faker',  group: :development
+  #gem to create fake information for seeds
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  #better error messages  
+
+end
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
