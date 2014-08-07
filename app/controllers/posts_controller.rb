@@ -14,6 +14,8 @@ class PostsController < ApplicationController
     redirect_to "/posts"
   end
 
-
+  def show
+    @post = Post.find(params[:id])
+  end
 
 end
