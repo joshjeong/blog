@@ -1,11 +1,9 @@
 <h1>Josh X San Francisco</h1>
 
-<%= render "new_post"%>
-
 <ul>
-  <% @all_posts.each do |post| %>
+  <% @posts.each do |post| %>
     <li>
-      <%= post.title %>
+      <%= post.title %><br>
       <%= post.content %>
       <%= button_to "Delete", { action: "destroy", id: post.id }, method: :delete, data: { confirm: "Are you sure?" } %><br>
     </li>
