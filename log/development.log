@@ -11308,3 +11308,1138 @@ Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 09:25:05 -070
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 09:25:05 -0700
+  [1m[36mComment Load (1.0ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Dicta impedit voluptatem aut repellat rerum."], ["created_at", "2014-08-08 01:43:50.149742"], ["title", "Internal Brand Developer"], ["updated_at", "2014-08-08 01:43:50.149742"]]
+  [1m[35m (6.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Consequatur expedita odit mollitia id alias neque ut reiciendis."], ["created_at", "2014-08-08 01:43:50.160805"], ["title", "Forward Interactions Supervisor"], ["updated_at", "2014-08-08 01:43:50.160805"]]
+  [1m[36m (6.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Architecto et quis facilis doloribus iusto nulla magnam sit."], ["created_at", "2014-08-08 01:43:50.170850"], ["title", "National Factors Technician"], ["updated_at", "2014-08-08 01:43:50.170850"]]
+  [1m[35m (5.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Repellendus eos expedita nisi rerum sed eos quas voluptatum."], ["created_at", "2014-08-08 01:43:50.178105"], ["title", "Direct Identity Director"], ["updated_at", "2014-08-08 01:43:50.178105"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quidem dolor ipsa sunt nihil quia sed."], ["created_at", "2014-08-08 01:43:50.180299"], ["title", "Internal Accountability Strategist"], ["updated_at", "2014-08-08 01:43:50.180299"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Et quia distinctio deserunt sequi quis."], ["created_at", "2014-08-08 01:43:50.181933"], ["title", "Human Accountability Coordinator"], ["updated_at", "2014-08-08 01:43:50.181933"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Placeat quo enim necessitatibus facere reprehenderit."], ["created_at", "2014-08-08 01:43:50.183413"], ["title", "Investor Creative Orchestrator"], ["updated_at", "2014-08-08 01:43:50.183413"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Nulla sint et similique unde inventore."], ["created_at", "2014-08-08 01:43:50.184719"], ["title", "Central Integration Facilitator"], ["updated_at", "2014-08-08 01:43:50.184719"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Aut voluptatem maiores ullam praesentium tempora id voluptas qui."], ["created_at", "2014-08-08 01:43:50.186205"], ["title", "Customer Security Engineer"], ["updated_at", "2014-08-08 01:43:50.186205"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Repellat incidunt nam molestiae cumque ea iste nisi eligendi."], ["created_at", "2014-08-08 01:43:50.187517"], ["title", "Future Usability Executive"], ["updated_at", "2014-08-08 01:43:50.187517"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Numquam nesciunt voluptates expedita et."], ["created_at", "2014-08-08 01:44:02.300504"], ["title", "Legacy Operations Executive"], ["updated_at", "2014-08-08 01:44:02.300504"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Autem labore accusamus quo eaque."], ["created_at", "2014-08-08 01:44:02.305215"], ["title", "District Division Designer"], ["updated_at", "2014-08-08 01:44:02.305215"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Qui id aut neque laudantium aspernatur dolor accusantium id."], ["created_at", "2014-08-08 01:44:02.307930"], ["title", "Dynamic Brand Specialist"], ["updated_at", "2014-08-08 01:44:02.307930"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quia consequuntur exercitationem a at."], ["created_at", "2014-08-08 01:44:02.309329"], ["title", "International Factors Administrator"], ["updated_at", "2014-08-08 01:44:02.309329"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Ullam ut quae non qui quia doloremque."], ["created_at", "2014-08-08 01:44:02.310563"], ["title", "Forward Applications Specialist"], ["updated_at", "2014-08-08 01:44:02.310563"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Deleniti nostrum labore et."], ["created_at", "2014-08-08 01:44:02.311865"], ["title", "Regional Accountability Liason"], ["updated_at", "2014-08-08 01:44:02.311865"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Unde hic modi repellat nihil ipsa harum."], ["created_at", "2014-08-08 01:44:02.313254"], ["title", "International Operations Engineer"], ["updated_at", "2014-08-08 01:44:02.313254"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Omnis ea officia et corrupti quaerat accusantium rem."], ["created_at", "2014-08-08 01:44:02.314521"], ["title", "Legacy Integration Producer"], ["updated_at", "2014-08-08 01:44:02.314521"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Delectus praesentium quisquam soluta repellendus vel."], ["created_at", "2014-08-08 01:44:02.315925"], ["title", "Central Interactions Architect"], ["updated_at", "2014-08-08 01:44:02.315925"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Veritatis accusamus et qui aut magni."], ["created_at", "2014-08-08 01:44:02.317269"], ["title", "Global Response Coordinator"], ["updated_at", "2014-08-08 01:44:02.317269"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Dolorum eum sunt eaque."], ["created_at", "2014-08-08 01:44:02.336815"], ["post_id", 4], ["updated_at", "2014-08-08 01:44:02.336815"]]
+  [1m[36m (6.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Debitis itaque ad ea."], ["created_at", "2014-08-08 01:44:02.345402"], ["post_id", 4], ["updated_at", "2014-08-08 01:44:02.345402"]]
+  [1m[35m (6.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Eos officiis dolores deserunt."], ["created_at", "2014-08-08 01:44:02.353482"], ["post_id", 4], ["updated_at", "2014-08-08 01:44:02.353482"]]
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quo accusantium ipsa numquam."], ["created_at", "2014-08-08 01:44:02.361473"], ["post_id", 8], ["updated_at", "2014-08-08 01:44:02.361473"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Tempora recusandae doloremque non voluptas vitae."], ["created_at", "2014-08-08 01:44:02.363157"], ["post_id", 8], ["updated_at", "2014-08-08 01:44:02.363157"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Ducimus id voluptates quia reprehenderit."], ["created_at", "2014-08-08 01:44:02.364946"], ["post_id", 8], ["updated_at", "2014-08-08 01:44:02.364946"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quaerat officia rerum dolorum cupiditate id explicabo iure."], ["created_at", "2014-08-08 01:44:02.366444"], ["post_id", 9], ["updated_at", "2014-08-08 01:44:02.366444"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Unde ab aut aliquid quasi odit eaque."], ["created_at", "2014-08-08 01:44:02.367723"], ["post_id", 9], ["updated_at", "2014-08-08 01:44:02.367723"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Eius eum dolorem blanditiis voluptatem qui maxime."], ["created_at", "2014-08-08 01:44:02.368894"], ["post_id", 9], ["updated_at", "2014-08-08 01:44:02.368894"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Voluptatum dolorum nihil perferendis voluptatem velit nam doloribus ipsam."], ["created_at", "2014-08-08 01:44:02.370336"], ["post_id", 10], ["updated_at", "2014-08-08 01:44:02.370336"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quasi iusto unde amet et."], ["created_at", "2014-08-08 01:44:02.371551"], ["post_id", 10], ["updated_at", "2014-08-08 01:44:02.371551"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Nesciunt molestiae sed fugiat et est."], ["created_at", "2014-08-08 01:44:02.372844"], ["post_id", 10], ["updated_at", "2014-08-08 01:44:02.372844"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Id aut beatae eos."], ["created_at", "2014-08-08 01:44:02.374537"], ["post_id", 11], ["updated_at", "2014-08-08 01:44:02.374537"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quia nam qui doloribus enim autem."], ["created_at", "2014-08-08 01:44:02.375826"], ["post_id", 11], ["updated_at", "2014-08-08 01:44:02.375826"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Facilis numquam ex qui molestiae."], ["created_at", "2014-08-08 01:44:02.377137"], ["post_id", 11], ["updated_at", "2014-08-08 01:44:02.377137"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Doloremque non qui et enim."], ["created_at", "2014-08-08 01:44:02.378577"], ["post_id", 12], ["updated_at", "2014-08-08 01:44:02.378577"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Vero voluptate itaque esse eum."], ["created_at", "2014-08-08 01:44:02.379864"], ["post_id", 12], ["updated_at", "2014-08-08 01:44:02.379864"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quia ea expedita repellat qui doloremque blanditiis."], ["created_at", "2014-08-08 01:44:02.381146"], ["post_id", 12], ["updated_at", "2014-08-08 01:44:02.381146"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Adipisci nesciunt quod velit aliquam necessitatibus repellendus nam."], ["created_at", "2014-08-08 01:44:02.382786"], ["post_id", 13], ["updated_at", "2014-08-08 01:44:02.382786"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Autem amet odit eum omnis rerum."], ["created_at", "2014-08-08 01:44:02.384151"], ["post_id", 13], ["updated_at", "2014-08-08 01:44:02.384151"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Unde non repellendus nobis ipsa nihil aut reiciendis quam."], ["created_at", "2014-08-08 01:44:02.385627"], ["post_id", 13], ["updated_at", "2014-08-08 01:44:02.385627"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Non illo temporibus beatae nulla sequi vel eum animi."], ["created_at", "2014-08-08 01:44:02.387031"], ["post_id", 14], ["updated_at", "2014-08-08 01:44:02.387031"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Earum magni reprehenderit repudiandae repellat officiis laborum eligendi culpa."], ["created_at", "2014-08-08 01:44:02.388311"], ["post_id", 14], ["updated_at", "2014-08-08 01:44:02.388311"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Hic ea dignissimos rerum voluptatibus voluptate earum."], ["created_at", "2014-08-08 01:44:02.389733"], ["post_id", 14], ["updated_at", "2014-08-08 01:44:02.389733"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Impedit et delectus et accusantium cum mollitia possimus."], ["created_at", "2014-08-08 01:44:02.391147"], ["post_id", 15], ["updated_at", "2014-08-08 01:44:02.391147"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Voluptatibus nemo consectetur rerum voluptas molestias qui perferendis."], ["created_at", "2014-08-08 01:44:02.392402"], ["post_id", 15], ["updated_at", "2014-08-08 01:44:02.392402"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Nam dolorem ea cupiditate."], ["created_at", "2014-08-08 01:44:02.393628"], ["post_id", 15], ["updated_at", "2014-08-08 01:44:02.393628"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Ea ut velit ipsam cupiditate animi voluptatem."], ["created_at", "2014-08-08 01:44:02.395000"], ["post_id", 16], ["updated_at", "2014-08-08 01:44:02.395000"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quos sapiente est eveniet non dicta magnam ea."], ["created_at", "2014-08-08 01:44:02.396139"], ["post_id", 16], ["updated_at", "2014-08-08 01:44:02.396139"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Nisi ea quis repudiandae quod."], ["created_at", "2014-08-08 01:44:02.397265"], ["post_id", 16], ["updated_at", "2014-08-08 01:44:02.397265"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Enim odio ea saepe."], ["created_at", "2014-08-08 01:44:02.398675"], ["post_id", 17], ["updated_at", "2014-08-08 01:44:02.398675"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Pariatur aut earum numquam."], ["created_at", "2014-08-08 01:44:02.399836"], ["post_id", 17], ["updated_at", "2014-08-08 01:44:02.399836"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quia aut molestiae facere."], ["created_at", "2014-08-08 01:44:02.401001"], ["post_id", 17], ["updated_at", "2014-08-08 01:44:02.401001"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Illo deserunt eum expedita aut fugiat et."], ["created_at", "2014-08-08 01:44:02.402618"], ["post_id", 18], ["updated_at", "2014-08-08 01:44:02.402618"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sed ratione et consequatur."], ["created_at", "2014-08-08 01:44:02.403883"], ["post_id", 18], ["updated_at", "2014-08-08 01:44:02.403883"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Sed saepe dolor autem."], ["created_at", "2014-08-08 01:44:02.405017"], ["post_id", 18], ["updated_at", "2014-08-08 01:44:02.405017"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Aut molestiae aut et quae quis molestiae hic."], ["created_at", "2014-08-08 01:44:02.406302"], ["post_id", 19], ["updated_at", "2014-08-08 01:44:02.406302"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Necessitatibus explicabo quas voluptas et dolorem ea nam unde."], ["created_at", "2014-08-08 01:44:02.407491"], ["post_id", 19], ["updated_at", "2014-08-08 01:44:02.407491"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ut hic fugiat dolores omnis qui et."], ["created_at", "2014-08-08 01:44:02.408767"], ["post_id", 19], ["updated_at", "2014-08-08 01:44:02.408767"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Aspernatur est quae repudiandae."], ["created_at", "2014-08-08 01:44:02.410133"], ["post_id", 20], ["updated_at", "2014-08-08 01:44:02.410133"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Rerum distinctio optio quia."], ["created_at", "2014-08-08 01:44:02.411309"], ["post_id", 20], ["updated_at", "2014-08-08 01:44:02.411309"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Voluptates magnam dolores optio eum sapiente assumenda."], ["created_at", "2014-08-08 01:44:02.412498"], ["post_id", 20], ["updated_at", "2014-08-08 01:44:02.412498"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Mollitia ab vel voluptatem."], ["created_at", "2014-08-08 01:44:02.413881"], ["post_id", 21], ["updated_at", "2014-08-08 01:44:02.413881"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Maiores magni saepe repellendus fugit harum in dolores quam."], ["created_at", "2014-08-08 01:44:02.415189"], ["post_id", 21], ["updated_at", "2014-08-08 01:44:02.415189"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Aut hic ut quas qui aut tempora."], ["created_at", "2014-08-08 01:44:02.416616"], ["post_id", 21], ["updated_at", "2014-08-08 01:44:02.416616"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Occaecati blanditiis asperiores doloremque quos."], ["created_at", "2014-08-08 01:44:02.418050"], ["post_id", 22], ["updated_at", "2014-08-08 01:44:02.418050"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quisquam aut corrupti non quibusdam."], ["created_at", "2014-08-08 01:44:02.419371"], ["post_id", 22], ["updated_at", "2014-08-08 01:44:02.419371"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quia libero sit natus hic qui."], ["created_at", "2014-08-08 01:44:02.420647"], ["post_id", 22], ["updated_at", "2014-08-08 01:44:02.420647"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Et ipsa nostrum fugiat voluptate voluptatibus."], ["created_at", "2014-08-08 01:44:02.422143"], ["post_id", 23], ["updated_at", "2014-08-08 01:44:02.422143"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Enim sed maxime libero quasi repellat sint fuga et."], ["created_at", "2014-08-08 01:44:02.423632"], ["post_id", 23], ["updated_at", "2014-08-08 01:44:02.423632"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Perspiciatis numquam earum commodi."], ["created_at", "2014-08-08 01:44:02.425093"], ["post_id", 23], ["updated_at", "2014-08-08 01:44:02.425093"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Pariatur repellendus quas itaque."], ["created_at", "2014-08-08 01:44:02.426659"], ["post_id", 24], ["updated_at", "2014-08-08 01:44:02.426659"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Enim ipsum qui voluptatem vitae rerum totam."], ["created_at", "2014-08-08 01:44:02.427981"], ["post_id", 24], ["updated_at", "2014-08-08 01:44:02.427981"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Laudantium consectetur voluptatem fuga asperiores sed modi nihil."], ["created_at", "2014-08-08 01:44:02.429280"], ["post_id", 24], ["updated_at", "2014-08-08 01:44:02.429280"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ullam quo aperiam laborum."], ["created_at", "2014-08-08 01:44:02.430923"], ["post_id", 25], ["updated_at", "2014-08-08 01:44:02.430923"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Voluptatum sed temporibus rerum doloremque consequuntur ipsa debitis amet."], ["created_at", "2014-08-08 01:44:02.432279"], ["post_id", 25], ["updated_at", "2014-08-08 01:44:02.432279"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sunt commodi corporis atque deleniti dignissimos repudiandae voluptatibus non."], ["created_at", "2014-08-08 01:44:02.433716"], ["post_id", 25], ["updated_at", "2014-08-08 01:44:02.433716"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Officia et cum cupiditate totam sint eos."], ["created_at", "2014-08-08 01:44:02.435439"], ["post_id", 26], ["updated_at", "2014-08-08 01:44:02.435439"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Et sit porro ipsa corporis."], ["created_at", "2014-08-08 01:44:02.436833"], ["post_id", 26], ["updated_at", "2014-08-08 01:44:02.436833"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Aut sit est rerum quos."], ["created_at", "2014-08-08 01:44:02.438240"], ["post_id", 26], ["updated_at", "2014-08-08 01:44:02.438240"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Soluta aut a eligendi."], ["created_at", "2014-08-08 01:44:02.439725"], ["post_id", 27], ["updated_at", "2014-08-08 01:44:02.439725"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Esse aut dolore itaque quae ex blanditiis et."], ["created_at", "2014-08-08 01:44:02.441130"], ["post_id", 27], ["updated_at", "2014-08-08 01:44:02.441130"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Velit sed minima dolor totam."], ["created_at", "2014-08-08 01:44:02.442473"], ["post_id", 27], ["updated_at", "2014-08-08 01:44:02.442473"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Est consequuntur aliquam quam nam quia quas impedit."], ["created_at", "2014-08-08 01:44:02.443987"], ["post_id", 28], ["updated_at", "2014-08-08 01:44:02.443987"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Repellat et deleniti amet qui maiores quasi."], ["created_at", "2014-08-08 01:44:02.445356"], ["post_id", 28], ["updated_at", "2014-08-08 01:44:02.445356"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Et omnis sit ut facilis."], ["created_at", "2014-08-08 01:44:02.446791"], ["post_id", 28], ["updated_at", "2014-08-08 01:44:02.446791"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Voluptas et voluptatem molestiae dolorem ut."], ["created_at", "2014-08-08 01:44:02.448249"], ["post_id", 29], ["updated_at", "2014-08-08 01:44:02.448249"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Enim corrupti incidunt labore sint iure quaerat tempore nihil."], ["created_at", "2014-08-08 01:44:02.449664"], ["post_id", 29], ["updated_at", "2014-08-08 01:44:02.449664"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Est facere ipsa sint."], ["created_at", "2014-08-08 01:44:02.451021"], ["post_id", 29], ["updated_at", "2014-08-08 01:44:02.451021"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Occaecati atque eveniet fugiat quo hic minus."], ["created_at", "2014-08-08 01:44:02.452566"], ["post_id", 30], ["updated_at", "2014-08-08 01:44:02.452566"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Asperiores ex omnis tempora quos veritatis incidunt."], ["created_at", "2014-08-08 01:44:02.454009"], ["post_id", 30], ["updated_at", "2014-08-08 01:44:02.454009"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Nesciunt dolorum maxime quibusdam corrupti sunt dicta qui."], ["created_at", "2014-08-08 01:44:02.455634"], ["post_id", 30], ["updated_at", "2014-08-08 01:44:02.455634"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Consequatur ea iste nemo repellat ipsam explicabo modi temporibus."], ["created_at", "2014-08-08 01:44:02.457234"], ["post_id", 32], ["updated_at", "2014-08-08 01:44:02.457234"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Corrupti voluptatum qui ut inventore quidem non odio eos."], ["created_at", "2014-08-08 01:44:02.458724"], ["post_id", 32], ["updated_at", "2014-08-08 01:44:02.458724"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Necessitatibus cumque voluptatem ipsam sint optio aut veritatis dolores."], ["created_at", "2014-08-08 01:44:02.460142"], ["post_id", 32], ["updated_at", "2014-08-08 01:44:02.460142"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Voluptatem dolore debitis exercitationem id et."], ["created_at", "2014-08-08 01:44:02.461692"], ["post_id", 33], ["updated_at", "2014-08-08 01:44:02.461692"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Aliquid et rerum libero."], ["created_at", "2014-08-08 01:44:02.463331"], ["post_id", 33], ["updated_at", "2014-08-08 01:44:02.463331"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Beatae excepturi in omnis voluptas sed neque et ut."], ["created_at", "2014-08-08 01:44:02.470752"], ["post_id", 33], ["updated_at", "2014-08-08 01:44:02.470752"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sit et non pariatur."], ["created_at", "2014-08-08 01:44:02.472515"], ["post_id", 34], ["updated_at", "2014-08-08 01:44:02.472515"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Cumque voluptatum voluptatem eveniet in ipsa."], ["created_at", "2014-08-08 01:44:02.473969"], ["post_id", 34], ["updated_at", "2014-08-08 01:44:02.473969"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ut officia molestiae fugit quaerat iste cupiditate voluptatem sit."], ["created_at", "2014-08-08 01:44:02.475285"], ["post_id", 34], ["updated_at", "2014-08-08 01:44:02.475285"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Earum aspernatur iste omnis enim."], ["created_at", "2014-08-08 01:44:02.476658"], ["post_id", 35], ["updated_at", "2014-08-08 01:44:02.476658"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quia dolores ut quis."], ["created_at", "2014-08-08 01:44:02.478045"], ["post_id", 35], ["updated_at", "2014-08-08 01:44:02.478045"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Enim sit iusto dolorum labore."], ["created_at", "2014-08-08 01:44:02.480139"], ["post_id", 35], ["updated_at", "2014-08-08 01:44:02.480139"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Totam non quos laudantium voluptates."], ["created_at", "2014-08-08 01:44:02.481485"], ["post_id", 36], ["updated_at", "2014-08-08 01:44:02.481485"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Nesciunt autem dolorum et quibusdam sunt iure quasi."], ["created_at", "2014-08-08 01:44:02.482839"], ["post_id", 36], ["updated_at", "2014-08-08 01:44:02.482839"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Quis ea repellendus consequatur est vero."], ["created_at", "2014-08-08 01:44:02.484257"], ["post_id", 36], ["updated_at", "2014-08-08 01:44:02.484257"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Odit optio ipsam reprehenderit."], ["created_at", "2014-08-08 01:44:02.485531"], ["post_id", 37], ["updated_at", "2014-08-08 01:44:02.485531"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sapiente praesentium corrupti et non et."], ["created_at", "2014-08-08 01:44:02.486802"], ["post_id", 37], ["updated_at", "2014-08-08 01:44:02.486802"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Sapiente recusandae impedit dicta voluptas qui."], ["created_at", "2014-08-08 01:44:02.488024"], ["post_id", 37], ["updated_at", "2014-08-08 01:44:02.488024"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Magnam doloremque tenetur sit illum deleniti laboriosam fuga voluptas."], ["created_at", "2014-08-08 01:44:02.489273"], ["post_id", 38], ["updated_at", "2014-08-08 01:44:02.489273"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Amet repudiandae expedita quia."], ["created_at", "2014-08-08 01:44:02.490579"], ["post_id", 38], ["updated_at", "2014-08-08 01:44:02.490579"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Est et illo rerum et iste qui."], ["created_at", "2014-08-08 01:44:02.491945"], ["post_id", 38], ["updated_at", "2014-08-08 01:44:02.491945"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Vel fugit perspiciatis occaecati et assumenda."], ["created_at", "2014-08-08 01:44:02.493264"], ["post_id", 39], ["updated_at", "2014-08-08 01:44:02.493264"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Debitis ex ut porro distinctio."], ["created_at", "2014-08-08 01:44:02.494488"], ["post_id", 39], ["updated_at", "2014-08-08 01:44:02.494488"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Doloremque non ex dolores beatae enim."], ["created_at", "2014-08-08 01:44:02.495750"], ["post_id", 39], ["updated_at", "2014-08-08 01:44:02.495750"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sunt ut mollitia et."], ["created_at", "2014-08-08 01:44:02.497783"], ["post_id", 7], ["updated_at", "2014-08-08 01:44:02.497783"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Consequatur eum libero voluptas nesciunt nihil et dolores."], ["created_at", "2014-08-08 01:44:02.499603"], ["post_id", 7], ["updated_at", "2014-08-08 01:44:02.499603"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Qui similique et et."], ["created_at", "2014-08-08 01:44:02.501236"], ["post_id", 7], ["updated_at", "2014-08-08 01:44:02.501236"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Occaecati mollitia et quidem qui ut."], ["created_at", "2014-08-08 01:44:02.503432"], ["post_id", 3], ["updated_at", "2014-08-08 01:44:02.503432"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Nobis dicta magni voluptas ducimus quas vitae et."], ["created_at", "2014-08-08 01:44:02.505028"], ["post_id", 3], ["updated_at", "2014-08-08 01:44:02.505028"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Expedita quis beatae nihil aliquam rerum unde fugiat."], ["created_at", "2014-08-08 01:44:02.506357"], ["post_id", 3], ["updated_at", "2014-08-08 01:44:02.506357"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Et optio mollitia provident."], ["created_at", "2014-08-08 01:44:02.508533"], ["post_id", 40], ["updated_at", "2014-08-08 01:44:02.508533"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Sit consequatur dicta quae et."], ["created_at", "2014-08-08 01:44:02.509956"], ["post_id", 40], ["updated_at", "2014-08-08 01:44:02.509956"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Pariatur rerum consectetur optio molestiae velit."], ["created_at", "2014-08-08 01:44:02.511222"], ["post_id", 40], ["updated_at", "2014-08-08 01:44:02.511222"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Sit saepe reprehenderit impedit quis adipisci."], ["created_at", "2014-08-08 01:44:02.512529"], ["post_id", 41], ["updated_at", "2014-08-08 01:44:02.512529"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Eveniet dolores aliquam numquam modi."], ["created_at", "2014-08-08 01:44:02.513723"], ["post_id", 41], ["updated_at", "2014-08-08 01:44:02.513723"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Magni est porro impedit voluptatibus molestias ipsum voluptas laborum."], ["created_at", "2014-08-08 01:44:02.515025"], ["post_id", 41], ["updated_at", "2014-08-08 01:44:02.515025"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Amet aut eligendi est reiciendis."], ["created_at", "2014-08-08 01:44:02.516892"], ["post_id", 42], ["updated_at", "2014-08-08 01:44:02.516892"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Voluptatem velit at maxime."], ["created_at", "2014-08-08 01:44:02.518203"], ["post_id", 42], ["updated_at", "2014-08-08 01:44:02.518203"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ratione saepe aut similique."], ["created_at", "2014-08-08 01:44:02.519566"], ["post_id", 42], ["updated_at", "2014-08-08 01:44:02.519566"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Enim veniam ullam rerum laborum est."], ["created_at", "2014-08-08 01:44:02.521472"], ["post_id", 43], ["updated_at", "2014-08-08 01:44:02.521472"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Voluptatum omnis repellat occaecati error non impedit."], ["created_at", "2014-08-08 01:44:02.522868"], ["post_id", 43], ["updated_at", "2014-08-08 01:44:02.522868"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Minus consequuntur commodi expedita voluptas."], ["created_at", "2014-08-08 01:44:02.524210"], ["post_id", 43], ["updated_at", "2014-08-08 01:44:02.524210"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Expedita aliquam quam omnis ratione officiis quis aut."], ["created_at", "2014-08-08 01:44:02.525789"], ["post_id", 44], ["updated_at", "2014-08-08 01:44:02.525789"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Aliquid aspernatur velit culpa."], ["created_at", "2014-08-08 01:44:02.527107"], ["post_id", 44], ["updated_at", "2014-08-08 01:44:02.527107"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Porro fugit eos qui sequi fugiat non ea repudiandae."], ["created_at", "2014-08-08 01:44:02.528334"], ["post_id", 44], ["updated_at", "2014-08-08 01:44:02.528334"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Pariatur voluptatibus dolor minus nisi est veritatis qui perferendis."], ["created_at", "2014-08-08 01:44:02.529706"], ["post_id", 45], ["updated_at", "2014-08-08 01:44:02.529706"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sit quisquam consequatur fugiat voluptates exercitationem quam voluptas quidem."], ["created_at", "2014-08-08 01:44:02.531067"], ["post_id", 45], ["updated_at", "2014-08-08 01:44:02.531067"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Dolor vero rem dolores earum occaecati facilis officia."], ["created_at", "2014-08-08 01:44:02.532530"], ["post_id", 45], ["updated_at", "2014-08-08 01:44:02.532530"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ea corporis perferendis dignissimos laboriosam beatae deleniti quaerat."], ["created_at", "2014-08-08 01:44:02.533764"], ["post_id", 46], ["updated_at", "2014-08-08 01:44:02.533764"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Et fugit minus est repellendus nesciunt ea maiores."], ["created_at", "2014-08-08 01:44:02.535150"], ["post_id", 46], ["updated_at", "2014-08-08 01:44:02.535150"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Nobis repudiandae veniam eos."], ["created_at", "2014-08-08 01:44:02.536337"], ["post_id", 46], ["updated_at", "2014-08-08 01:44:02.536337"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Ut delectus nulla quo omnis et et nisi saepe."], ["created_at", "2014-08-08 01:44:02.537671"], ["post_id", 47], ["updated_at", "2014-08-08 01:44:02.537671"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Totam quia necessitatibus iure accusamus natus."], ["created_at", "2014-08-08 01:44:02.538904"], ["post_id", 47], ["updated_at", "2014-08-08 01:44:02.538904"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Esse minus aut ex eos."], ["created_at", "2014-08-08 01:44:02.540111"], ["post_id", 47], ["updated_at", "2014-08-08 01:44:02.540111"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Est commodi omnis quia sunt debitis reprehenderit."], ["created_at", "2014-08-08 01:44:02.541462"], ["post_id", 48], ["updated_at", "2014-08-08 01:44:02.541462"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Nisi fugiat tempore ducimus ea repellat rerum."], ["created_at", "2014-08-08 01:44:02.542670"], ["post_id", 48], ["updated_at", "2014-08-08 01:44:02.542670"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Rerum perferendis commodi autem reiciendis est omnis perspiciatis."], ["created_at", "2014-08-08 01:44:02.543862"], ["post_id", 48], ["updated_at", "2014-08-08 01:44:02.543862"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Eligendi sint ut cum quis."], ["created_at", "2014-08-08 01:44:02.545220"], ["post_id", 49], ["updated_at", "2014-08-08 01:44:02.545220"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Odio eos est repellat voluptatem illum accusamus."], ["created_at", "2014-08-08 01:44:02.546538"], ["post_id", 49], ["updated_at", "2014-08-08 01:44:02.546538"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Rerum neque quam alias."], ["created_at", "2014-08-08 01:44:02.547865"], ["post_id", 49], ["updated_at", "2014-08-08 01:44:02.547865"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Deserunt qui est dolor."], ["created_at", "2014-08-08 01:44:02.549300"], ["post_id", 50], ["updated_at", "2014-08-08 01:44:02.549300"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Suscipit maiores porro a et ad."], ["created_at", "2014-08-08 01:44:02.550701"], ["post_id", 50], ["updated_at", "2014-08-08 01:44:02.550701"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Expedita placeat deserunt quia sint atque officia voluptas."], ["created_at", "2014-08-08 01:44:02.552249"], ["post_id", 50], ["updated_at", "2014-08-08 01:44:02.552249"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Veniam quia distinctio dolorem dolor numquam."], ["created_at", "2014-08-08 01:44:02.553738"], ["post_id", 51], ["updated_at", "2014-08-08 01:44:02.553738"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Officia velit aspernatur eum veritatis molestiae rerum ipsa quis."], ["created_at", "2014-08-08 01:44:02.555082"], ["post_id", 51], ["updated_at", "2014-08-08 01:44:02.555082"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Aut et magnam illum error."], ["created_at", "2014-08-08 01:44:02.556628"], ["post_id", 51], ["updated_at", "2014-08-08 01:44:02.556628"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Mollitia unde enim ullam vitae delectus."], ["created_at", "2014-08-08 01:44:02.558454"], ["post_id", 52], ["updated_at", "2014-08-08 01:44:02.558454"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Perferendis autem aliquam nesciunt maiores quaerat molestiae."], ["created_at", "2014-08-08 01:44:02.560001"], ["post_id", 52], ["updated_at", "2014-08-08 01:44:02.560001"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Ab eos numquam et inventore dolor error alias."], ["created_at", "2014-08-08 01:44:02.561367"], ["post_id", 52], ["updated_at", "2014-08-08 01:44:02.561367"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Aut quasi fugiat porro."], ["created_at", "2014-08-08 01:44:02.563370"], ["post_id", 53], ["updated_at", "2014-08-08 01:44:02.563370"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Omnis non culpa commodi."], ["created_at", "2014-08-08 01:44:02.565458"], ["post_id", 53], ["updated_at", "2014-08-08 01:44:02.565458"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Magnam voluptas aliquid molestias enim inventore."], ["created_at", "2014-08-08 01:44:02.567421"], ["post_id", 53], ["updated_at", "2014-08-08 01:44:02.567421"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Eligendi et excepturi odit laboriosam."], ["created_at", "2014-08-08 01:44:02.569100"], ["post_id", 54], ["updated_at", "2014-08-08 01:44:02.569100"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Voluptatem vitae nihil quis veritatis unde ipsam consequuntur."], ["created_at", "2014-08-08 01:44:02.570520"], ["post_id", 54], ["updated_at", "2014-08-08 01:44:02.570520"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sequi maiores nesciunt voluptates odit harum doloribus iusto exercitationem."], ["created_at", "2014-08-08 01:44:02.571778"], ["post_id", 54], ["updated_at", "2014-08-08 01:44:02.571778"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Odio qui aut quisquam tempore eaque labore."], ["created_at", "2014-08-08 01:44:02.573180"], ["post_id", 55], ["updated_at", "2014-08-08 01:44:02.573180"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Sint velit ut excepturi sapiente consequatur tenetur."], ["created_at", "2014-08-08 01:44:02.574577"], ["post_id", 55], ["updated_at", "2014-08-08 01:44:02.574577"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quis fuga nostrum doloribus sequi adipisci."], ["created_at", "2014-08-08 01:44:02.575849"], ["post_id", 55], ["updated_at", "2014-08-08 01:44:02.575849"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Rem expedita mollitia eum ipsum."], ["created_at", "2014-08-08 01:44:02.577234"], ["post_id", 56], ["updated_at", "2014-08-08 01:44:02.577234"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Ut mollitia rerum qui maiores sit sunt iste ut."], ["created_at", "2014-08-08 01:44:02.578466"], ["post_id", 56], ["updated_at", "2014-08-08 01:44:02.578466"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Totam ipsam voluptas ut libero quibusdam dolorem."], ["created_at", "2014-08-08 01:44:02.579818"], ["post_id", 56], ["updated_at", "2014-08-08 01:44:02.579818"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Officiis autem doloremque quod sint maiores et modi."], ["created_at", "2014-08-08 01:44:02.581668"], ["post_id", 57], ["updated_at", "2014-08-08 01:44:02.581668"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Qui sint harum odio quia esse molestiae hic sit."], ["created_at", "2014-08-08 01:44:02.583097"], ["post_id", 57], ["updated_at", "2014-08-08 01:44:02.583097"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Magnam voluptas nihil libero repellendus eaque temporibus."], ["created_at", "2014-08-08 01:44:02.584305"], ["post_id", 57], ["updated_at", "2014-08-08 01:44:02.584305"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Provident qui est quo pariatur nesciunt aspernatur."], ["created_at", "2014-08-08 01:44:02.585582"], ["post_id", 58], ["updated_at", "2014-08-08 01:44:02.585582"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Molestiae voluptatem sapiente et."], ["created_at", "2014-08-08 01:44:02.586694"], ["post_id", 58], ["updated_at", "2014-08-08 01:44:02.586694"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Id veritatis voluptatem a omnis aliquid qui omnis rerum."], ["created_at", "2014-08-08 01:44:02.588059"], ["post_id", 58], ["updated_at", "2014-08-08 01:44:02.588059"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Quia dolorem omnis earum asperiores voluptas sapiente autem."], ["created_at", "2014-08-08 01:44:02.589380"], ["post_id", 59], ["updated_at", "2014-08-08 01:44:02.589380"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "Possimus vitae ut accusamus eos aut est reprehenderit qui."], ["created_at", "2014-08-08 01:44:02.590548"], ["post_id", 59], ["updated_at", "2014-08-08 01:44:02.590548"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("content", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Omnis temporibus nihil vero cum debitis et tempore."], ["created_at", "2014-08-08 01:44:02.591697"], ["post_id", 59], ["updated_at", "2014-08-08 01:44:02.591697"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35mPost Load (0.5ms)[0m  SELECT  "posts".* FROM "posts"   ORDER BY "posts"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"   ORDER BY "posts"."id" ASC LIMIT 1[0m
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1  [["post_id", 3]]
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:48:41 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 86ms (Views: 67.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:48:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:48:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:48:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:48:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:48:41 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:48:56 -0700
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate - Missing template posts/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/joshjeong/Code/Practice/blog/app/views"
+:
+  actionview (4.1.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.1) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+   () Users/joshjeong/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/joshjeong/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/joshjeong/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/joshjeong/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/2179166340/variables" for 127.0.0.1 at 2014-08-07 18:48:56 -0700
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:50:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 59ms (Views: 46.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:50:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:50:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:50:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:50:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:50:39 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:55:12 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (47.6ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:12 -0700
+
+
+Started GET "/posts/4/edit" for 127.0.0.1 at 2014-08-07 18:55:14 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered posts/_form.html.haml (206.5ms)
+  Rendered posts/edit.html.haml within layouts/application (210.5ms)
+Completed 200 OK in 216ms (Views: 213.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:14 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:55:21 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (29.6ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:21 -0700
+
+
+Started GET "/posts/4/edit" for 127.0.0.1 at 2014-08-07 18:55:22 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered posts/_form.html.haml (2.1ms)
+  Rendered posts/edit.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:22 -0700
+
+
+Started GET "/posts/8/edit" for 127.0.0.1 at 2014-08-07 18:55:23 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  Rendered posts/_form.html.haml (2.0ms)
+  Rendered posts/edit.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:24 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:55:33 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:33 -0700
+
+
+Started GET "/posts/4/edit" for 127.0.0.1 at 2014-08-07 18:55:33 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered posts/_form.html.haml (2.8ms)
+  Rendered posts/edit.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:34 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:55:35 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.haml within layouts/application (30.6ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:35 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/posts/4/edit" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered posts/_form.html.haml (1.8ms)
+  Rendered posts/edit.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:36 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:55:57 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (25.6ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:57 -0700
+
+
+Started GET "/posts/4/edit" for 127.0.0.1 at 2014-08-07 18:55:59 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered posts/_form.html.haml (1.9ms)
+  Rendered posts/edit.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:55:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:55:59 -0700
+
+
+Started GET "/posts/4/edit" for 127.0.0.1 at 2014-08-07 18:56:02 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered posts/_form.html.haml (1.9ms)
+  Rendered posts/edit.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:56:02 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:02 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:02 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:56:50 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.haml within layouts/application (23.2ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:56:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:50 -0700
+
+
+Started GET "/posts/4/edit" for 127.0.0.1 at 2014-08-07 18:56:51 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered posts/_form.html.erb (2.1ms)
+  Rendered posts/edit.html.haml within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:56:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:51 -0700
+
+
+Started PATCH "/posts/4" for 127.0.0.1 at 2014-08-07 18:56:59 -0700
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ehvpvIzgFnHe+UvWIqygg3nzWaGsJIURq16rFJRYGCU=", "post"=>{"title"=>"Chief Accountability Officer", "content"=>"asdf"}, "commit"=>"Update Post", "id"=>"4"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "content" = $1, "updated_at" = $2 WHERE "posts"."id" = 4  [["content", "asdf"], ["updated_at", "2014-08-08 01:56:59.835738"]]
+  [1m[36m (5.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 12ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:56:59 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:56:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:56:59 -0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-08-07 18:57:25 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (30.1ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:57:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:25 -0700
+
+
+Started GET "/posts/8/edit" for 127.0.0.1 at 2014-08-07 18:57:26 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 8]]
+  Rendered posts/_form.html.haml (3.0ms)
+  Rendered posts/edit.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-07 18:57:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-07 18:57:26 -0700

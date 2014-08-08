@@ -10,3 +10,11 @@
 10.times do |x|
   Post.create(title: Faker::Name.title, content: Faker::Lorem.sentence)
 end
+
+@posts = Post.all
+
+@posts.each do |post|
+  3.times do |x|
+    post.comments.create(content: Faker::Lorem.sentence)
+  end
+end
