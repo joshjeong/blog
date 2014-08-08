@@ -9,7 +9,7 @@ class PostsController < ApplicationController
   end
 
   def create #GET
-    # params.permit!
+    params.permit!
     Post.create(params[:post])
     redirect_to :posts
   end
@@ -24,10 +24,14 @@ class PostsController < ApplicationController
   end
 
   def update #PUT, updates db
-
+    params.permit!
+    @post = Post.find(params[:id])
+    @post.update_attributes(params[:post])
+    redirect_to :posts
   end
 
   def edit #GET, shows page to edit
+    @post = Post.find(params[:id])
   end
 
 end
