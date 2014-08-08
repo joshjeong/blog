@@ -5,7 +5,12 @@
   - @posts.each do |post|
     %li
       = post.title
+      = link_to post.title, post
       = post.content 
       
-      = button_to "Delete", { action: "destroy", id: post.id }, method: :delete, data: { confirm: "Are you sure?" } 
-      = button_to "Edit", { action: "edit", id: post.id }, method: :get
+      = button_to "Delete", post, method: :delete, data: { confirm: "Are you sure?" } 
+      = button_to "Edit", post, method: :get
+      = link_to "Comments", post_comment
+
+
+
