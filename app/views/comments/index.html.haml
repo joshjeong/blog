@@ -1,3 +1,6 @@
+= link_to "New Comment", new_post_comment_path, method: :get
+
 - @comments.each do |comment|
   %li
     = comment.content
+    = button_to "Delete", post_comment_url(@post.id, comment.id), method: :delete, id: comment.id

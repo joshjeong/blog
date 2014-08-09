@@ -1,0 +1,6 @@
+= form_for [@post, @comment] do |f|
+
+  = f.label :content
+  = f.text_area :content, size: '20x2'
+
+  = f.submit "Submit"
